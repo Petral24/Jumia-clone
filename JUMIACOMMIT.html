@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html class="no-js desktop" lang="en-NG">
+<head>
+    <script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"2e0dde5d40",applicationID:"97172052"};;(()=>{"use strict";var e,t,n={8768:(e,t,n)=>{n.d(t,{T:()=>r,p:()=>i});const r=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),i=r&&Boolean("undefined"==typeof SharedWorker)},2919:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>p,C5:()=>c,DL:()=>w,OP:()=>N,lF:()=>C,Yu:()=>A,Dg:()=>v,CX:()=>u,GE:()=>y,sU:()=>I});var r={};n.r(r),n.d(r,{agent:()=>x,match:()=>k,version:()=>_});var i=n(6797),o=n(4286);const a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},s={};function c(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!s[e])throw new Error("Info for ".concat(e," was never set"));return s[e]}function u(e,t){if(!e)throw new Error("All info objects require an agent identifier!");s[e]=new o.I(t,a),(0,i.Qy)(e,s[e],"info")}var d=n(2797),f=n(2374);const l={allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},g={};function h(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");g[e]=new o.I(t,l),(0,i.Qy)(e,g[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return b[e]}function y(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new o.I(t,m),(0,i.Qy)(e,b[e],"loader_config")}const A=(0,i.mF)().o;var x=null,_=null;const j=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var D=navigator.userAgent,E=D.match(j);E&&-1===D.indexOf("Chrome")&&-1===D.indexOf("Chromium")&&(x="Safari",_=E[1])}function k(e,t){if(!x)return!1;if(e!==x)return!1;if(!t)return!0;if(!_)return!1;for(var n=_.split("."),r=t.split("."),i=0;i<r.length;i++)if(r[i]!==n[i])return!1;return!0}var S=n(1651);const T={buildEnv:S.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:S.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(f._A?.performance?.timeOrigin||f._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+f._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof f._A.XMLHttpRequest?.prototype?.addEventListener,userAgent:r,version:S.q4},P={};function N(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!P[e])throw new Error("Runtime for ".concat(e," was never set"));return P[e]}function I(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");P[e]=new o.I(t,T),(0,i.Qy)(e,P[e],"runtime")}function C(e){return function(e){try{const t=c(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},4286:(e,t,n)=>{n.d(t,{I:()=>o});var r=n(909),i=n(8610);class o{constructor(e,t){Object.assign(this,function(e,t){const n={};try{return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(n,t),Object.entries(e).forEach((e=>{let[o,a]=e;if(!Object.keys(t).includes(o))return;const s=(0,r.q)(o);s.length&&a&&"object"==typeof a&&s.forEach((e=>{e in a&&((0,i.Z)('"'.concat(e,'" is a protected attribute and can not be changed in feature ').concat(o,".  It will have no effect.")),delete a[e])})),n[o]=a})),n):(0,i.Z)("Setting a Configurable requires a model to set its initial properties"):(0,i.Z)("New setting a Configurable requires an object as input")}catch(e){(0,i.Z)("An error occured while setting a Configurable",e)}}(e,t))}}},1651:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.232.0",i="PROD",o="CDN"},9557:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(8610);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,n)=>{n.d(t,{L:()=>d,R:()=>c});var r=n(3752),i=n(7022),o=n(4045),a=n(2325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,n)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=Array.from(s[e]);function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)f(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function f(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,n)=>{n.d(t,{ee:()=>u});var r=n(6797),i=n(3916),o=n(7022),a=n(2919),s="nr@context";let c=(0,r.fP)();var u;function d(){}function f(){return new d}function l(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,n){var r={},c={},g={},h=!1;try{h=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var v={on:b,addEventListener:b,removeEventListener:w,emit:m,get:A,listeners:y,context:p,buffer:x,abort:l,aborted:!1,isBuffering:_,debugId:n,backlog:h?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return v;function p(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,f):f()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,n,r);for(var a=p(r),s=y(e),d=s.length,f=0;f<d;f++)s[f].apply(a,n);var l=j()[c[e]];return l&&l.push([v,e,n,a]),a}}function b(e,t){r[e]=y(e).concat(t)}function w(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function y(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(v,t)}function x(e,t){var n=j();v.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function _(e){return!!j()[c[e]]}function j(){return v.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(3752).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4045:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(9252);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},8544:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},5526:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(2374);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},2797:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},2053:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},8610:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},3916:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,n)=>{n.d(t,{_A:()=>o,il:()=>r,v6:()=>i});const r=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(r)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})()},7022:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},2438:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(3752);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},2650:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},6797:(e,t,n)=>{n.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var r=n(2053),i=n(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},6034:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},2484:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(2325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},6382:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(2325).D.pageViewTiming},1509:(e,t,n)=>{n.d(t,{W:()=>s});var r=n(2919),i=n(3752),o=n(2384),a=n(6797);class s{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,r.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,r.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},2384:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(2325),i=n(2919),o=n(9252),a=n(3752),s=n(2053),c=n(4329),u=n(2650),d=n(2374),f=n(8610),l=n(6034),g=n(6797);function h(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var v=n(7022);const p={stn:[r.D.sessionTrace],err:[r.D.jserrors,r.D.metrics],ins:[r.D.pageAction],spa:[r.D.spa]};const m={};function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:y,info:A,loader_config:x,runtime:_={loaderType:b},exposed:j=!0}=t;const D=(0,g.gG)();A||(y=D.init,A=D.info,x=D.loader_config),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A),(0,i.Dg)(e,y||{}),(0,i.GE)(e,x||{}),(0,i.sU)(e,_),h();const E=function(e,t){t||(0,c.R)(e,"api");const g={};var h=a.ee.get(e),v=h.get("tracer"),p="api-",m=p+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(p,r,!0,o||null===n?"session":void 0)(t,n)}function w(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(p,e,!0,"api"))),g.addPageAction=A(p,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(p,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(p,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,f.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,f.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,f.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new w).get()};var y=w.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,h),function(){if(v.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw v.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{v.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,r.D.metrics,h),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,h),n?void 0:this}}function x(){n.e(439).then(n.bind(n,5692)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,f.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{y[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,r.D.metrics,h),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,h)},d.v6?x():(0,u.b)((()=>x()),!0),g}(e,w);return(0,g.Qy)(e,E,"api"),(0,g.Qy)(e,j,"exposed"),(0,g.EZ)("activatedFeatures",m),(0,g.EZ)("setToken",(t=>function(e,t){var n=a.ee.get(t);e&&"object"==typeof e&&((0,v.D)(e,(function(e,t){if(!t)return(p[e]||[]).forEach((t=>{(0,o.p)("block-"+e,[],void 0,t,n)}));m[e]||((0,o.p)("feat-"+e,[],void 0,p[e],n),m[e]=!0)})),(0,c.L)(t,r.D.pageViewEvent))}(t,e))),E}},909:(e,t,n)=>{n.d(t,{Z:()=>i,q:()=>o});var r=n(2325);function i(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}function o(e){return e===r.D.jserrors?[]:["auto"]}},2325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",439:"async-api",729:"lazy-loader",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"64dc4751",147:"c2ad263a",193:"c0ef217a",242:"2a8d47d1",317:"017d6ea4",348:"ddd91465",439:"ad3273bd",729:"c8cd494b",786:"5a238c1f",873:"342172b1",875:"2c240adb",898:"666f66ea"}[e]+"-1.232.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var f=u[d];if(f.getAttribute("src")==n||f.getAttribute("data-webpack")==t+o){s=f;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var l=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(l.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=l.bind(null,s.onerror),s.onload=l.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=71,i.p="https://js-agent.newrelic.com/",(()=>{var e={71:0,131:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,u=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(2325),t=i(2919);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(2384),s=i(909),c=i(9252),u=i(8768),d=i(4329),f=i(1509),l=i(2650),g=i(2374),h=i(8610);class v extends f.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.hasAggregator=!1,this.auto=r,this.abortHandler,r&&(0,d.R)(e,n)}importAggregator(){if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{setupAgentSession:e}=await i.e(242).then(i.bind(i,2011));e(this.agentIdentifier);const{lazyLoader:t}=await i.e(729).then(i.bind(i,8110)),{Aggregate:n}=await t(this.featureName,"aggregate");new n(this.agentIdentifier,this.aggregator)}catch(e){(0,h.Z)("Downloading ".concat(this.featureName," failed..."),e),this.abortHandler?.()}};g.v6?e():(0,l.b)((()=>e()),!0)}}var p=i(2484),m=i(2053);class b extends v{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.T)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,m.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,m.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,c.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var w=i(9557),y=i(7022);class A extends w.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,n){t[e]=x(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,y.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=x(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=_(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=x(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=j(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=_(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function _(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function j(e){return"object"!=typeof e?[]:(0,y.D)(e,D)}function D(e,t){return t}var E=i(6797),k=i(5526),S=i(2438);var T=i(6998),P=i(8544),N=i(6382);class I extends v{static featureName=N.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,N.t,r),g.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,T.N)((()=>(0,c.p)("docHidden",[(0,m.z)()],void 0,N.t,this.ee)),!0),(0,P.bP)("pagehide",(()=>(0,c.p)("winPagehide",[(0,m.z)()],void 0,N.t,this.ee))),this.importAggregator())}}const C=Boolean(g._A?.Worker),O=Boolean(g._A?.SharedWorker),R=Boolean(g._A?.navigator?.serviceWorker);let M,B,z;var q=i(6034);class W extends v{static featureName=q.t9;constructor(t,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,n,q.t9,r),function(e){if(!M){if(C){M=Worker;try{g._A.Worker=n(M,"Dedicated")}catch(e){o(e,"Dedicated")}if(O){B=SharedWorker;try{g._A.SharedWorker=n(B,"Shared")}catch(e){o(e,"Shared")}}else r("Shared");if(R){z=navigator.serviceWorker.register;try{g._A.navigator.serviceWorker.register=(t=z,function(){for(var e=arguments.length,n=new Array(e),r=0;r<e;r++)n[r]=arguments[r];return i("Service",n[1]?.type),t.apply(navigator.serviceWorker,n)})}catch(e){o(e,"Service")}}else r("Service");var t;return}r("All")}function n(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,n)=>(i(t,n[1]?.type),new e(...n))})}function r(t){g.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,n){e("Workers/".concat(t,"module"===n?"/Module":"/Classic"))}function o(t,n){e("Workers/".concat(n,"/SM/Unsupported")),(0,h.Z)("NR Agent: Unable to capture ".concat(n," workers."),t)}}((t=>(0,c.p)(q.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,k.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new A({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(b),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=Array.from(this.desiredFeatures);i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const e=(0,s.Z)(t.featureName);e.every((e=>n[e]))||(0,h.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,S.P)(e),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,E.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,h.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,E.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[b,I,W],loaderType:"lite"})})(),window.NRBA=o})();</script>
+                
+            <title>Jumia Food Nigeria | Restaurants near you, Alcohol &amp; Groceries Delivery | Order Online</title>
+    
+            <meta name="description" content="Order online Food, Drinks and everything you need near you. Try it Now! ✔ Pizzas, Nigerian Food, Alcohol, Groceries ✔ Simple, Fast and Pay Cash on Delivery ✔ Restaurants &amp; Shops near you in Lagos, Abuja, Ibadan, Port Harcourt"/>
+    
+            <meta name="keywords" content="foodpanda, food"/>
+    
+            <meta name="robots" content="index,follow"/>
+    
+                        <meta name="format-detection" content="telephone=no"/>
+                                <meta name="mobile-web-app-capable" content="yes"/>
+                                <meta name="apple-mobile-web-app-capable" content="yes"/>
+                                <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                                <meta name="revisit-after" content="3 days"/>
+                                <meta name="msapplication-tilecolor" content="#da532c"/>
+                                <meta name="msapplication-tileimage" content="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/mstile-144x144.png?v=1683703800"/>
+                                <meta name="msapplication-config" content="/browserconfig.xml"/>
+            
+            <link rel="alternate" href="android-app://com.jumiafood.android/foodpanda/?c=ng&amp;utm_source=google&amp;utm_medium=search&amp;utm_campaign=https%3A%2F%2Ffood.jumia.com.ng%2F&amp;utm_content=food.jumia.com.ng&amp;adjust_tracker=wqdu8i&amp;adjust_campaign=search&amp;adjust_adgroup=https%3A%2F%2Ffood.jumia.com.ng%2F&amp;adjust_creative="  />
+            <link rel="alternate" href="ios-app://1113993339/foodpanda/?c=ng&amp;utm_source=google&amp;utm_medium=search&amp;utm_campaign=https%3A%2F%2Ffood.jumia.com.ng%2F&amp;utm_content=food.jumia.com.ng&amp;adjust_tracker=qy87hh&amp;adjust_campaign=search&amp;adjust_adgroup=https%3A%2F%2Ffood.jumia.com.ng%2F&amp;adjust_creative="  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-57x57.png?v=1683703800" sizes="57x57"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-60x60.png?v=1683703800" sizes="60x60"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-72x72.png?v=1683703800" sizes="72x72"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-76x76.png?v=1683703800" sizes="76x76"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-114x114.png?v=1683703800" sizes="114x114"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-120x120.png?v=1683703800" sizes="120x120"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-144x144.png?v=1683703800" sizes="144x144"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-152x152.png?v=1683703800" sizes="152x152"  />
+            <link rel="apple-touch-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-180x180.png?v=1683703800" sizes="180x180"  />
+            <link rel="apple-touch-icon-precomposed" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/apple-touch-icon-precomposed.png?v=1683703800"  />
+            <link rel="icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/favicon-32x32.png?v=1683703800" sizes="32x32"  />
+            <link rel="icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/favicon-192x192.png?v=1683703800" sizes="192x192"  />
+            <link rel="icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/favicon-96x96.png?v=1683703800" sizes="96x96"  />
+            <link rel="icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/favicon-16x16.png?v=1683703800" sizes="16x16"  />
+            <link rel="manifest" href="/manifest.json"  />
+            <link rel="shortcut icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/favicon.ico?v=1683703800"  />
+            <link rel="mask-icon" href="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/safari-pinned-tab.svg?v=1683703800" color="#f68b1e"  />
+            <link rel="alternate" href="https://food.jumia.ma/" hreflang="fr"  />
+            <link rel="alternate" href="https://food.jumia.ma/ar/" hreflang="ar"  />
+            <link rel="alternate" href="https://food.jumia.com.tn/" hreflang="fr-TN"  />
+            <link rel="alternate" href="https://food.jumia.com.tn/ar/" hreflang="ar-TN"  />
+            <link rel="alternate" href="https://food.jumia.ci/" hreflang="fr-CI"  />
+            <link rel="alternate" href="https://food.jumia.ci/en/" hreflang="en-CI"  />
+            <link rel="alternate" href="https://food.jumia.sn/" hreflang="fr-SN"  />
+            <link rel="alternate" href="https://food.jumia.sn/en/" hreflang="en-SN"  />
+            <link rel="alternate" href="https://food.jumia.rw/" hreflang="en-RW"  />
+            <link rel="alternate" href="https://food.jumia.rw/fr/" hreflang="fr-RW"  />
+            <link rel="alternate" href="https://food.jumia.rw/rw/" hreflang="rw"  />
+            <link rel="alternate" href="https://food.jumia.dz/" hreflang="fr-DZ"  />
+            <link rel="alternate" href="https://food.jumia.com.ng/" hreflang="en"  />
+            <link rel="alternate" href="https://food.jumia.co.ke/" hreflang="en-KE"  />
+            <link rel="alternate" href="https://food.jumia.com.gh/" hreflang="en-GH"  />
+            <link rel="alternate" href="https://food.jumia.ug/" hreflang="en-UG"  />
+            <link rel="alternate" href="https://food.jumia.co.tz/" hreflang="en-TZ"  />
+    
+                        <meta content="https://food.jumia.com.ng/" property="og:url"/>
+                                <meta content="Jumia Food" property="og:site_name"/>
+                      <link rel="stylesheet" href="https://africa-public.food.jumia.com/cdn/production/shop-new/css/styles-a1cf6fd1.css" media="all"/>
+  <link rel="stylesheet" href="https://africa-public.food.jumia.com/cdn/production/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+                
+        
+    
+    
+    
+        
+    <script type="text/javascript">
+        window.API_BASE_URL = 'https://api.food.jumia.com.ng/api/v6';
+        window.API_BASE_URL_V7 = 'https://api.food.jumia.com.ng/api/v7';
+        window.CURRENCY_INFO = {"symbol":"\u20a6","position":"left","decimals":2,"decimal_sep":".","thousands_sep":",","symbol_spaces":0,"currency_symbol_iso":"NGN"};
+        window.SMART_WEBVIEW_PREFIX = '';
+        window.HTTP_HOST_SCHEMA = 'https://food.jumia.com.ng';
+        window.GOOGLE_ADS_NETWORK_CODE = '21834584457';
+        window.POPUPS_ENABLED = 1;
+        window.GEOLOCATION_ENABLED = 1;
+        window.CACHEBUSTER_SUFFIX = '1596116892';
+
+                                window.BRAND_NAME = 'jumiafood';
+            window.LIST_PATH = '/restaurants'
+            window.DETAIL_PATH = '/restaurant'
+            window.IS_WHITELABEL = false;
+        
+    </script>
+
+    
+                    
+    
+    <script>
+        var dataLayer = [{"area_id":"NA","area_name":"NA","city_id":"NA","city_name":"NA","lat":"NA","lng":"NA","country_id":"NG","app_version":"production|master|cd24ce0jf","ga_code":"UA-00000000-0","ga_domain":"food.jumia.com.ng","language":"en_NG","visitor_id":"c2d3fbf578fb1578a9c0af9d77a5cc20","landing_page":"\/","visitor_utm_source":"","visitor_utm_campaign":"","visitor_utm_content":"","visitor_utm_medium":"","visitor_utm_term":"","visitor_referer":"Google_SEO","visitor_source":"https:\/\/www.google.com\/","ab_group":"a","platform":"pc","currency":"NGN","page_type":"Homepage","newsletter_id":null,"source":"frontend","brand":"jumiafood","customer_logged":0,"customer_id":"","customer_cas_id":"","customer_status":"NA","customer_control":0,"customer_lastname":"","customer_name":"","customer_email":"","customer_phone":"","customer_hash":"","customer_vendor_id_list":"","customer_last_date":"NA","customer_first_date":"NA","customer_acquisition_voucher":"false"}];
+
+        window.$trackingConfig = {
+            gtmActive: 1,
+            gaActive: 1
+        };
+
+    </script>
+
+            <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-T3KQC9');
+        </script>
+        <!-- End Google Tag Manager -->
+                </head>
+<body class="  no-foodpanda ng " >
+                                    <noscript>
+        <iframe
+            src="//www.googletagmanager.com/ns.html?id=GTM-T3KQC9"
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+        ></iframe>
+    </noscript>
+            <section id="jf">
+        <div id="header-promo-container"></div>
+                      
+
+  <nav id="jf-navbar" class="navbar is-transparent header-navbar sticky has-shadow">
+    <div class="container">
+      <div class="navbar-brand">
+        <div class="navbar-burger burger" data-target="header-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a class="navbar-item" href="/">
+            <img alt="Logo" class="is-hidden-touch" src="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/jumiafood-logo.png?v=1683703800" />
+        <img class="is-hidden-desktop" src="/images/jumia-food-mobile.svg?v=1596116892" alt="Logo" />
+    </a>
+      </div>
+      <div id="header-menu" class="navbar-menu has-text-centered-touch">
+        <div class="navbar-end mhl-mobile">
+                                                <a class="navbar-item mhxs is-hidden-desktop" href="https://pay.jumia.com.ng/services/jumia-prime" target="_blank">
+    <div class="dir-row fvh-ctr">
+      <img class="icon-w-16 mrs" src="/images/prime-icon.svg?v=1596116892"/>
+      <span class="is-uppercase">Jumia Prime</span>
+    </div>
+  </a>
+                                          
+                      <a class="navbar-item mhxs is-hidden-desktop" href="/restaurants">
+    <div class="dir-col is-inline-block-touch">
+        <span class="is-uppercase">Vendors</span>
+    </div>
+</a>
+                      <a class="navbar-item mhxs" href="/contents/contact.htm">
+    <div class="dir-col is-inline-block-touch">
+        <span class="is-uppercase">Help</span>
+    </div>
+</a>
+                                              <div class="navbar-item">
+                <a class="button is-primary is-small is-size-5 is-fullwidth-touch has-text-weight-bold is-uppercase"
+                                            id="myJumiaLogin"
+                                       data-card-class="small"
+                >
+                    Login / Sign Up
+                </a>
+            </div>
+                    </div>
+      </div>
+    </div>
+  </nav>
+                            <main class="home">
+                    
+                                                                                    
+    
+<section class="services-area">
+    <div class="columns mhn phm-touch">
+        <div class="column phn is-3-fullhd is-2-desktop is-hidden-touch">
+                            <img src="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/jumiafood-homepage-left-splash-services.jpg?v=1683703800"/>
+                    </div>
+
+        <div class="column phn-touch phm-desktop is-6-fullhd is-8-desktop is-12-touch mt-crazy-large mtxxl-touch">
+            <h1 class="title mbs-desktop mbl-touch is-1 is-size-2-mobile has-text-centered-desktop has-text-left-touch">Everything you need, delivered now</h1>
+
+    <h2 class="title is-4 is-size-3-mobile is-hidden-touch has-text-centered-desktop has-text-left-touch"> </h2>
+                            
+<script>
+    window.noProductPicPlaceholder = "\/\/africa-public.food.jumia.com\/assets\/production\/ng\/layout\/themes\/capricciosa_hellofood\/images\/en\/no_pic_logo.png?v=1683703800"
+</script>
+
+<div
+    id="service-wrapper"
+            data-last-orders-addresses="[]"
+        data-country-info="{&quot;name&quot;:&quot;Nigeria&quot;,&quot;code&quot;:&quot;ng&quot;}"
+        data-default-location="{&quot;lat&quot;:6.4568779999999997,&quot;lng&quot;:3.3877989999999998}"
+        data-customer-address=""
+    data-language-id="1"
+    data-tracking-id=""
+    data-customer-area="{&quot;id&quot;:null,&quot;name&quot;:null}"
+    data-customer-city="{&quot;id&quot;:null,&quot;name&quot;:null}">
+</div>
+
+    <script defer src="https://maps.googleapis.com/maps/api/js?region=ng&amp;client=gme-silveroakinternet&amp;channel=food&amp;signature=zJGtPZDf-jQbDW9MMd9QV4vYDoQ%3D&amp;libraries=places%2Cgeometry">
+        <!-- -->
+    </script>
+
+<div class="service-loader mtxxl">
+    <div class="is-flex">
+        <div class="skeleton skeleton-icon"></div>
+        <div class="skeleton skeleton-title mls"></div>
+    </div>
+            <div class="skeleton skeleton-submit mtl mbm fw"></div>
+        <div class="skeleton skeleton-submit fw"></div>
+</div>
+
+        </div>
+
+        <div class="column phn is-3-fullhd is-2-desktop is-hidden-touch">
+                            <img class="is-block mla" src="//africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/jumiafood-homepage-right-splash-services.jpg?v=1683703800"/>
+                    </div>
+    </div>
+</section>
+
+    <section id="google-ad-manager-banners-wrapper"></section>
+
+    <section class="section how-it-works is-hidden-touch ptn">
+        <div class="container has-text-centered">
+            <h1 class="title is-1">How it Works</h1>
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <img src="/images/how-it-works-1.svg?v=1596116892"/>
+                    <h3 class="title mvs is-size-3">Set delivery location</h3>
+                    <p class="">Select the location where you want us to deliver</p>
+                </div>
+                <div class="column">
+                    <img src="/images/how-it-works-2.svg?v=1596116892"/>
+                    <h3 class="title mvs is-size-3">Choose the product</h3>
+                    <p>Browse shops that deliver near you</p>
+                </div>
+                <div class="column">
+                    <img src="/images/how-it-works-3.svg?v=1596116892"/>
+                    <h3 class="title mvs is-size-3">Receive it at your doorstep</h3>
+                    <p>Your order will be delivered to you in no time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https://food.jumia.com.ng/",
+    "name" : "Jumia Food",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://food.jumia.com.ng/restaurants?user_search={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "Jumia Food",
+    "url": "https://food.jumia.com.ng/",
+    "logo": "https://africa-public.food.jumia.com/assets/production/ng/layout/themes/capricciosa_hellofood/images/en/logo.png?v=1683703800"
+}
+</script>
+
+    
+            <section class="section subscribe-newsletter bg-or is-fullwidth mtl zi-1">
+        <div class="container">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-7">
+                                            <h1 class="title is-1 is-size-4-mobile has-text-white mbn">Subscribe to our newsletter today!</h1>
+                        <div class="has-text-white is-hidden-touch">
+                            Don&#039;t miss out on our great offers & Receive deals from all our top vendors via e-mail
+                        </div>
+                        <form action="/newsletter/subscribe" method="post">
+                            <div class="field is-horizontal">
+                                <div class="field-body fl-wrap mtl">
+                                    <input type="hidden" id="newsletter_subscribe__token" name="newsletter_subscribe[_token]" value="BZOEnYCa5Rvk0qYaIpZuVzVaOY7Ftm8R9OtXRO97f_4" />
+                                    <div class="field nl-city">
+                                        <div class="control">
+                                            <div class="select is-fullwidth error-validation set-icon">
+                                                
+                                                <select id="newsletter_subscribe_city" name="newsletter_subscribe[city]" required="required" class="is-large mvxs" data-prefill="location.cityId"><option value="" selected="selected">Select your city</option><optgroup label="Popular Cities">
+                <option value="2308407">ABUJA</option><option value="2309165">BAYELSA</option><option value="2309164">Delta</option><option value="2308815">LAGOS</option><option value="2308538">PORT HARCOURT</option></optgroup><optgroup label="More Cities">
+                <option value="2309590">ABAKALIKI</option><option value="2309548">ABIA</option><option value="2309490">Ado Ekiti</option><option value="2309449">Anambra</option><option value="2309163">BENIN</option><option value="2310846">Calabar</option><option value="2309407">Enugu</option><option value="2308970">IBADAN</option><option value="2310863">Jos</option><option value="2309161">KADUNA</option><option value="2309160">KANO</option><option value="2309166">Kwara</option><option value="2309159">MINNA</option><option value="2309261">Ogun</option><option value="2309494">Ondo</option><option value="2309485">Osun</option><option value="2309563">Owerri</option><option value="2309431">UYO</option></optgroup></select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field nl-mail">
+                                        <div class="control is-expanded error-validation set-icon">
+                                            
+                                            <input type="email" id="newsletter_subscribe_email" name="newsletter_subscribe[email]" required="required" class="input is-large mvxs" placeholder="E-mail" data-prefill="customer.email" />
+                                        </div>
+                                    </div>
+                                    <div class="field nl-submit">
+                                        <button class="button is-dark has-text-white mvxs is-fullwidth is-large" type="submit">SUBSCRIBE NEWSLETTER</button>
+                                    </div>
+                                                                            <div class="field is-size-5 has-text-left-mobile mvm nl-terms">
+                                            <div>
+                                                <span>
+                                                    <input type="checkbox" id="newsletter_subscribe_termsAndConditionsAccepted" name="newsletter_subscribe[termsAndConditionsAccepted]" required="required" class="jf-cb" value="1" />
+                                                    <label class="has-text-white is-size-5 is-inline-flex required" for="newsletter_subscribe_termsAndConditionsAccepted">I have read and accepted the</label>
+                                                </span>
+                                                <a class="has-text-white" href="/contents/terms-and-conditions.htm" target="_blank">Terms and conditions</a>
+                                                <span class="has-text-white">and the</span>
+                                                <a class="has-text-white" href="/contents/privacy.htm" target="_blank">Privacy policy</a>
+                                            </div>
+                                            <div class="error-validation">
+                                                
+                                            </div>
+                                        </div>
+                                                                    </div>
+                            </div>
+                        </form>
+
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+
+            
+    <section class="section get-started-corporate is-fullwidth zi-1">
+    <div class="container has-text-centered">
+        <div class="corporate-img is-hidden-touch">
+            <img class="img" src="/images/jumia-for-corporate.jpg"/>
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-5-desktop">
+                <div class="content">
+                    <h1 class="title is-2 is-size-1 is-size-4-mobile has-text-weight-bold">Sign Up As a Vendor On Jumia Food</h1>
+                    <p class="has-text-centered-mobile is-size-4">
+                        Get more customers and increase your sales
+                    </p>
+                                        <a href="https://food.jumia.com.ng/contents/sell%20on%20jumia%20food" class="button is-dark has-text-white is-small is-size-5 is-fullwidth-touch">
+                        Sign Up
+                    </a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="section apps-stores is-fullwidth bg-or">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-5-desktop has-text-centered-touch ptxs">
+                    <h1 class="title is-size-4-mobile is-size-1 has-text-white">Order food</h1>
+                    <p class="is-hidden-touch has-text-white is-size-4">The Jumia Food app makes it simple for anybody to use a mobile device to look over the menu of the best vendors and place an order for home delivery.</p>
+                    <div class="buttons-apps has-text-centered-touch">
+                                                    <a class="button app-icon" href="https://app.adjust.com/jbtqpb?campaign=NG_Homepage_iOS&amp;deep_link=jumiafood%3A%2F%2F%3Fc%3DNG%26s%3Ds%0A" target="_blank">
+                                <img src="/images/apple.svg?v=1596116892"/>
+                            </a>
+                                                                            <a class="button app-icon" href="https://app.adjust.com/fkgptt?campaign=NG_Homepage_Android&amp;deep_link=jumiafood%3A%2F%2F%3Fc%3DNG%26s%3Ds%0A" target="_blank">
+                                <img src="/images/android.svg?v=1596116892"/>
+                            </a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-stores-img is-hidden-touch">
+            <img src="/images/jumia-food-app-mockup.png?v=1596116892"/>
+        </div>
+    </section>
+
+    
+
+            </main>
+        
+                                <div class="complex-footer section bd-typo pbm">
+            <div class="container footer-container">
+                                    <div class="columns is-size-5">
+                        <div class="column">
+                            <h6 class="title is-size-base">City</h6>
+                            <ul class="unstyled">
+        <li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos" title="Food delivery Lagos">Lagos</a></li>	
+		<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/abuja" title="Food delivery Abuja">Abuja</a></li>
+<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/ibadan" title="Food delivery Ibadan">Ibadan</a></li>
+                <li> <a href="https://food.jumia.com.ng/restaurants/city/port-harcourt" title="Food delivery Port Harcourt"> Port Harcourt </a></li>
+        <li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/area/lekki-phase-1" title="Food delivery Lekki Phase 1">Lekki Phase 1</a></li>
+        <li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/area/victoria-island" title="Food delivery Victoria Island">Victoria Island</a></li>
+		<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/area/yaba" title="Food delivery Yaba">Yaba</a></li>
+		<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/area/marina" title="Food delivery Marina">Marina</a></li>      
+        <li>
+		<a href="https://food.jumia.com.ng/restaurants/city/abuja/area/wuse-ii" title="Food delivery Wuse II">Wuse II</a></li>
+		<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/abuja/area/maitama" title="Food delivery Maitama" >Maitama</a></li>
+                
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/area/ikoyi-dolphin-estate" title="Food delivery Ikoyi - Dolphin Estate">Ikoyi - Dolphin Estate</a></li>
+<li></li><li>
+		<a href="https://food.jumia.com.ng/supermarket" title="Order Grocery online">Supermarket Online</a></li>
+		<li>
+		<a href="https://food.jumia.com.ng/pharmacy" title="Order Drugs online">Pharmacy Online</a></li>
+		<li>
+		<a href="https://food.jumia.com.ng/shopping" title="Shop online">Shopping Online</a></li>
+		</ul>
+                        </div>
+                        <div class="column">
+                            <h6 class="title is-size-base">Cuisines</h6>
+                            <ul class="unstyled">
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/burger" title="Burger restaurants in Lagos">Burgers in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/pizza" title="Pizza restaurants in Lagos">Pizza in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/nigerian" title="Nigerian Food restaurants in Lagos">Nigerian Food in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/african" title="African food restaurants in Lagos">African Food in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/chinese" title="Chinese restaurants in Lagos">Chinese Food in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/indian" title="Indian restaurants in Lagos">Indian Food in Lagos</a></li>
+		<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/american" title="American restaurants in Lagos">American Food in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/seafood" title="Seafood restaurants in Lagos">Seafood in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/breakfast" title="Breakfast restaurants in Lagos">Breakfast Menu in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/bakery-and-cakes" title="Cake delivery Lagos" >Cakes in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/sandwiches" title="Sandwiches restaurants in Lagos">Sandwiches in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/salads" title="Salads restaurants Lagos" >Salads in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/lagos/cuisines/pasta" title="Italian restaurants in Lagos">Pasta in Lagos</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/abuja/cuisines/african" title="African food restaurants in Abuja">African Food in Abuja</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/abuja/cuisines/sandwiches" title="Sandwiches restaurants in Abuja">Sandwiches in Abuja</a></li>
+		<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/abuja/cuisines/salads" title="Salads restaurants Abuja">Salads in Abuja</a></li>
+	<li>
+		<a href="https://food.jumia.com.ng/restaurants/city/abuja/cuisines/nigerian" title="Nigerian food restaurants in Abuja">Nigerian Food in Abuja</a></li></ul>
+                        </div>
+                        <div class="column">
+                            <h6 class="title is-size-base">Popular vendors</h6>
+                            <ul class="unstyled">
+<ul class="unstyled">
+<ul class="unstyled">
+<li><a title="Shiro Menu" href="https://food.jumia.com.ng/restaurant/n7pn/shiro">Shiro</a></li>
+<li><a title="Bambo Lounge Menu" href="https://food.jumia.com.ng/restaurant/n4fv/bamboo-lounge">Bambo Lounge</a></li>
+<li><a title="Cilantro menu near me" href="https://food.jumia.com.ng/restaurant/n1mt/cilantro">Cilantro Delivery</a></li>
+<li><a title="Bungalow Restaurant menu near me" href="https://food.jumia.com.ng/restaurant/n4gs/bungalow-restaurant">Bungalow Restaurant</a></li>
+<li><a title="Chicken Capitol Delivery" href="https://food.jumia.com.ng/restaurant/n3bw/chicken-capitol">Chicken Capitol</a></li>
+<li><a title="Chicken Republic Delivery" href="https://food.jumia.com.ng/restaurant/n7cl/chicken-republic">Chicken Republic</a></li>
+<li><a title="Casper &amp; Gambini's Menu" href="https://food.jumia.com.ng/restaurant/cf9ze/casper">Casper &amp; Gambini's</a></li>
+<li><a title="Johnny Rockets" href="https://food.jumia.com.ng/restaurant/n8im/johnny-rockets">Johnny Rockets</a></li>
+<li><a title="Drumstix Menu" href="https://food.jumia.com.ng/restaurant/n3by/drumstix">Drumstix</a></li>
+<li><a title="Seven Eagles Spur" href="https://food.jumia.com.ng/restaurant/n5jp/seven-eagles-spur">Seven Eagles Spur</a></li>
+<li><a title="Hard Rock Cafe" href="https://food.jumia.com.ng/restaurant/n2md/hard-rock-cafe">Hard Rock Cafe</a></li>
+<li><a title="Eric Kayser" href="https://food.jumia.com.ng/restaurant/n4eh/eric-kayser">Eric Kayser</a></li>
+<li><a title="Kohinoor Lounge" href="https://food.jumia.com.ng/restaurant/n6xl/kohinoor-lounge">Kohinoor Lounge</a></li>
+<li><a title="Krispy Kreme Lagos Delivery" href="https://food.jumia.com.ng/restaurant/co0un/krispy-kreme-doughnuts">Krispy Kreme Doughnuts &amp; Coffee</a></li>
+<li><a title="Crepaway" href="https://food.jumia.com.ng/restaurant/n9si/crepaway">Crepaway</a></li>
+<li><a title="Debonairs Pizza Menu" href="https://food.jumia.com.ng/restaurant/n3vo/debonairs-pizza">Debonairs Pizza</a></li>
+<li><a title="KFC menu near me" href="https://food.jumia.com.ng/restaurant/cp5wf/kfc">KFC Delivery</a></li>
+<li><a title="The Place" href="https://food.jumia.com.ng/restaurant/n7fv/the-place">The Place</a></li>
+<li><a title="Bukka Hut Menu" href="https://food.jumia.com.ng/restaurant/n7qd/bukka-hut-vendor">Bukka Hut</a></li>
+<li><a title="Pizza Hut" href="https://food.jumia.com.ng/restaurant/n3ny/pizza-hut">Pizza Hut</a></li>
+<li><a title="Cold Stone Creamery" href="https://food.jumia.com.ng/restaurant/n3wq/cold-stone-creamery">Cold Stone Creamery</a></li>
+<li><a title="Rhapsody's" href="https://food.jumia.com.ng/restaurant/n7tb/rhapsody's">Rhapsody's</a></li>
+<li><a title="Spice Route" href="https://food.jumia.com.ng/restaurant/n3bl/spice-route">Spice Route</a></li>
+<li><a title="355 Restaurant &amp; Lounge Landmark" href="https://food.jumia.com.ng/restaurant/n8rj/355-restaurant-&amp;-lounge-landmark">355 Restaurant &amp; Lounge Landmark</a></li>
+<li><a title="China wok" href="https://food.jumia.com.ng/restaurant/n7pu/china-wok">China wok</a></li>
+<li><a title="Terra Kulture Menu" href="https://food.jumia.com.ng/restaurant/n1ny/terra-kulture">Terra Kulture</a></li>
+<li><a title="restaurants near me" href="https://food.jumia.com.ng/restaurants?user_search=domino">Domino's Pizza</a></li>
+<li><a title="restaurants near me" href="https://food.jumia.com.ng/restaurants">All restaurants near me</a></li>
+</ul>
+</ul>
+</ul>
+                        </div>
+                        <div class="column">
+                            <h6 class="title is-size-base">Jumia Food</h6>
+                                                                                        <ul>
+                                                                            <li>
+                                            <a href="/contents/Sell%20on%20Jumia%20Food">
+                                                Sell on Jumia Food
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contents/Become%20a%20rider!">
+                                                Become a rider!
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contents/about.htm">
+                                                About
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contents/press.htm">
+                                                Press
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contents/contact.htm">
+                                                Help page (FAQ)
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contents/terms-and-conditions.htm">
+                                                Terms and Conditions
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contents/privacy.htm">
+                                                Privacy Policy
+                                            </a>
+                                        </li>
+                                                                    </ul>
+                                                                                                                    <div class="mtl">
+                                    <h6 class="title is-5">Connect with us</h6>
+                                    <ul class="is-size-4">
+                                        <li>
+                                                                                                                                                                                                    <a href="https://www.instagram.com/jumiafoodng/" target="_blank" rel="nofollow" class="is-6">
+                                                    <span class="icon">
+                                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                    </span>
+                                                    </a>
+                                                                                                                                                                                                                                                    <a href="https://twitter.com/JumiaFoodNG" target="_blank" rel="nofollow" class="is-6">
+                                                    <span class="icon">
+                                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                    </span>
+                                                    </a>
+                                                                                                                                                                                                                                                    <a href="https://www.facebook.com/JumiaFoodNG" target="_blank" rel="nofollow" class="is-6">
+                                                    <span class="icon">
+                                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                    </span>
+                                                    </a>
+                                                                                                                                    </li>
+                                    </ul>
+                                </div>
+                                                    </div>
+                    </div>
+                    
+                                                                        <div class="columns">
+    <div class="column simple-footer-cms">
+        <a target="_blank" href="/contents/terms-and-conditions.htm">
+            Terms and Conditions
+        </a>
+        &nbsp;&middot;&nbsp;
+        <a target="_blank" href="/contents/privacy.htm">
+            Privacy Policy
+        </a>
+    </div>
+    <span class="column simple-footer-trademark has-text-right">
+  © Copyright 2023 Jumia Food is a registered trademark
+</span>
+</div>
+            </div>
+        </div>
+    
+    
+
+                <script>window.TRANSLATIONS = {"jumiafood.home.services.choose":"Choose a service","jumiafood.shop.location.choose_another_location":"Choose another location","jumiafood.shop.location.choose_on_map":"Choose on map","jumiafood.shop.location.dont_deliver_text":"Sorry, we don't deliver there... yet! Jumia Food is expanding delivery locations, so stay tuned!","jumiafood.shop.location.dont_deliver_title":"We don\u2019t deliver at this address","jumiafood.shop.location.enter_delivery_address":"Enter your delivery address","jumiafood.shop.location.find_food_button":"Show results","jumiafood.shop.location.not_found":"Not found","jumiafood.shop.location.see_where_we_deliver":"See where we deliver","jumiafood.shop.location.select_city":"Select your city","jumiafood.shop.location.select_area":"Select your area","jumiafood.shop.location.show_results":"Show results","jumiafood.shop.location.wrong_country.button_accept":"Yes, change country","jumiafood.shop.location.wrong_country.button_reject":"No, keep country","jumiafood.shop.location.wrong_country.text":"It seems that you are at %client-country% and your account is defined to %api-country%. If you don\u2019t change it, your delivery location will not be valid.","jumiafood.shop.location.wrong_country.title":"Are you in a different country?","jumiafood.shop.location.delivering_location":"Delivering Location","jumiafood.shop.location.choose_your_location":"You can move the map to choose your location","jumiafood.shop.location.choose_this_location":"CHOOSE THIS LOCATION","jumiafood.shop.location.we_dont_deliver_here":"Sorry, we don't deliver here","jumiafood.shop.vendor.listing.deliver_to":"delivering to","shop.location.top_cities.header":"Popular Cities","shop.location.more_cities.header":"More Cities"};</script>
+
+                    
+            <script defer type="text/javascript" src="https://africa-public.food.jumia.com/cdn/production/shop-new/js/vendors-app-1534f0f1.js"></script>
+    <script defer type="text/javascript" src="https://africa-public.food.jumia.com/cdn/production/shop-new/js/app-5589efb8.js"></script>
+        <script>
+        // disable bfcache navigations (issues on some safari iOS devices)
+        window.onpageshow = function(event) {
+            if(event.persisted) {
+                window.location.reload()
+            }
+        }
+    </script>
+        <div id="modal-ajax" class="modal has-tabs">
+            <div class="modal-background"></div>
+            <div class="modal-card fh-ctr wb-word" data-form-post-ajax></div>
+        </div>
+    </section>
+
+                
+    
+                <div
+                id="cookie-notice-vue"
+                data-cookie-name="FD_cookie_notice"
+                data-cookie-expires="315360000"
+                data-cookie-notice-message="Jumia Food uses cookie files in order to improve your online experience and for analytics. You can disable cookies in your browser settings at any moment."
+                data-cookie-notice-and="and"
+                data-cookie-notice-link="/contents/cookies.htm#cookies"
+                data-cookie-notice-link-text="Cookies"
+                data-privacy-notice-link="/contents/privacy.htm#cookies"
+                data-privacy-notice-link-text="Privacy"
+        ></div>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2e0dde5d40","applicationID":"97172052","transactionName":"Z1RTbUoECEBWARJeC14eckxLEQleGAQJWABAUF9dWUsVW1gSSEQNRFQfWlcLEkFYDgpSFh5ZXlRdXw5cWgcnVBBZXl8=","queueTime":0,"applicationTime":60,"atts":"SxNQGwIeG04=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7c846fe36a983f2e',m:'IOjC5DlXwGdx3r.ytqYu7WawvFTCh9ZagvrrwrrwqpE-1684248669-0-Aak/x5d1b6Ux3WRhgS57pBo5GDIaNtjX32OcEImNpwYv',u:'/cdn-cgi/challenge-platform/h/g'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
